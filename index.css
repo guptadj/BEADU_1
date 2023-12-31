@@ -8,7 +8,7 @@
     object-fit: cover;
 }
 .img-fluid{
-    max-width: 33%;
+    max-width: 10%;
 }
 
 .custom-img {
@@ -23,5 +23,9 @@
         width: 72%;
         object-fit: cover;
     }
+    .img-fluid{
+        max-width: 33%;
+    }
+    
     
 }
