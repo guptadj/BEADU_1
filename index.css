@@ -7,3 +7,21 @@
     width: 100%;
     object-fit: cover;
 }
+.img-fluid{
+    max-width: 10%;
+}
+
+.custom-img {
+    max-height: 90vh; /* Set the maximum height as needed */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+
+@media (min-width: 768px) {
+    .carousel-item img {
+        height: 50%;
+        width: 72%;
+        object-fit: cover;
+    }
+    
+}
